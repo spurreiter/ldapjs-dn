@@ -1,0 +1,43 @@
+{
+  "name": "@spurreiter/ldapjs-dn",
+  "version": "1.1.0",
+  "description": "API for handling LDAP distinguished name strings",
+  "homepage": "https://github.com/ldapjs/dn",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ldapjs/dn.git"
+  },
+  "files": [
+    "lib",
+    "index.js"
+  ],
+  "license": "MIT",
+  "sideEffects": false,
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "all": "npm run lint && npm t",
+    "lint": "prettier -w .",
+    "test": "tap --coverage-report=none",
+    "test:cov": "tap",
+    "test:cov:html": "tap --coverage-report=html",
+    "test:watch": "tap -w --no-coverage-report"
+  },
+  "dependencies": {
+    "@ldapjs/asn1": "2.0.0"
+  },
+  "devDependencies": {
+    "@fastify/pre-commit": "^2.0.2",
+    "prettier": "*",
+    "tap": "^21.1.0"
+  },
+  "originalAuthor": "Patrick Mooney",
+  "originalContributors": [
+    "Mark Cavage <mcavage@gmail.com>",
+    "Cody Peter Mello <cody.mello@joyent.com>"
+  ],
+  "precommit": [
+    "lint",
+    "test"
+  ]
+}
