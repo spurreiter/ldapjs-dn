@@ -20,9 +20,9 @@ console.log(dn.normalize().toString())
 //> 'cn=foo,dn=example,dn=com,st=nice'
 
 const dn2 = DN.fromObject({
-  cn: 'foo', 
+  cn: 'foo',
   st: 'nice',
-  dn: ['example', 'com']
+  dn: ['example', 'com'],
 })
 console.log(dn.toString())
 //> 'cn=foo,st=nice,dn=example,dn=com'

@@ -1,6 +1,5 @@
 import tap from 'tap'
-import { RDN } from './rdn.js'
-import { DN } from './dn.js'
+import { DN, RDN } from '../index.js'
 
 tap.test('constructor', (t) => {
   t.test('throws for non-array', async (t) => {

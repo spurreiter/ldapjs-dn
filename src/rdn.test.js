@@ -1,6 +1,6 @@
 import tap from 'tap'
 import { BerReader } from '@ldapjs/asn1'
-import { RDN } from './rdn.js'
+import { RDN } from '../index.js'
 
 tap.test('equals', (t) => {
   t.test('false for non-rdn object', async (t) => {
