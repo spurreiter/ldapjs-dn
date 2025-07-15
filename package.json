@@ -1,6 +1,6 @@
 {
   "name": "@spurreiter/ldapjs-dn",
-  "version": "1.2.1",
+  "version": "1.3.0-0",
   "description": "API for handling LDAP distinguished name strings",
   "homepage": "https://github.com/ldapjs/dn",
   "repository": {
@@ -32,6 +32,9 @@
     "@fastify/pre-commit": "^2.0.2",
     "prettier": "*",
     "tap": "^21.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "originalAuthor": "Patrick Mooney",
   "originalContributors": [
