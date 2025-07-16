@@ -16,6 +16,7 @@
   },
   "files": [
     "src",
+    "!**/*.test.js",
     "index.js"
   ],
   "scripts": {
