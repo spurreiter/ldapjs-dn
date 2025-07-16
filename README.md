@@ -9,6 +9,8 @@ strings as defined by [RFC 4514](https://www.rfc-editor.org/rfc/rfc4514).
 ## Usage
 
 ```sh
+npm i @spurreiter/ldapjs-dn
+
 npm i git+ssh://git@github.com:spurreiter/ldapjs-dn#semver:^1
 ```
 
@@ -30,7 +32,7 @@ console.log(dn.toString())
 //> 'cn=foo,st=nice,dn=example,dn=com'
 ```
 
-RFC4514 escaping/ unescaping:
+RFC 4514 escaping/ unescaping:
 
 ```js
 import { escapeValue, unescapeValue } from '@spurreiter/ldapjs-dn'

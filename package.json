@@ -2,7 +2,8 @@
   "name": "@spurreiter/ldapjs-dn",
   "version": "1.3.0",
   "description": "API for handling LDAP distinguished name strings",
-  "homepage": "https://github.com/ldapjs/dn",
+  "homepage.org": "https://github.com/ldapjs/dn",
+  "homepage": "https://github.com/spurreiter/ldapjs-dn",
   "repository": {
     "type": "git",
     "url": "git@github.com:ldapjs/dn.git"
